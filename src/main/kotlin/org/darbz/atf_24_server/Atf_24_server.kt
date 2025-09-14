@@ -14,11 +14,14 @@ class Atf_24_server : JavaPlugin() {
         registerEvents()
 
 
+
     }
 
     override fun onDisable() {
         // Plugin shutdown logic
     }
+
+
 
     fun registerEvents() {
         server.pluginManager.registerEvents(kick(this), this)
@@ -32,8 +35,9 @@ class Atf_24_server : JavaPlugin() {
 
 
     fun sendData(player: Player, data: String?) {
-        //send our key, then the data
         player.sendMessage("atf012_" + data)
     }
+
+
 
 }
