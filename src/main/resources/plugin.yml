@@ -1,0 +1,10 @@
+name: atf_24_server
+version: '1.0-SNAPSHOT'
+main: org.darbz.atf_24_server.Atf_24_server
+api-version: '1.21'
+prefix: ATF
+authors: [ _Darbz_ ]
+description: Anti Freecam Yuh - Made By Darbz
+website: https://darbz-skripting-experience-pf.carrd.co/
+commands:
+  verify_mod:
