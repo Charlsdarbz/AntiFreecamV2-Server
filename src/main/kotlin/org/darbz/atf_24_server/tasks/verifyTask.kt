@@ -8,7 +8,6 @@ class verifyTask(private val plugin2: Atf_24_server) : Task(plugin2)  {
     public override fun run() {
         for (player in plugin!!.hasMod) {
             plugin?.sendData(player, "1")
-            player.sendMessage("TESTTTTTTTTTTTT??????")
 
 
         }
